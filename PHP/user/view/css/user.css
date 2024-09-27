@@ -1,0 +1,194 @@
+div.body_user{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+section.user{
+    background-color: rgba(255, 255, 255, 0.841);
+   
+}
+td.td_function>input.btn-primary{
+    margin: 1pc 0;
+}
+table.table1{
+    width: 100%;
+}
+table.table1>thead{
+    border-bottom: ridge 2px;
+}
+table.table1>tbody>tr{
+    border-bottom: ridge 2px;
+    height: 3pc;
+}
+table.table2{
+    width: 100%;
+}
+table.table2>thead{
+    border-bottom: ridge 2px;
+}
+table.table2>tbody>tr{
+    border-bottom: ridge 2px;
+    height: 3pc;
+}
+table.table2>tbody>tr>td>input[type='button']{
+    background-color: yellow;
+    padding:0.2pc 1pc;
+    border-radius: 4px;
+    border: ridge 1px;
+}
+table.table2>tbody>tr>td>input[type='button']:hover{
+    background-color: rgb(204, 204, 72);
+}
+table.table2>tbody>tr>td>input[type='button']:active{
+    background-color: rgb(148, 148, 49);
+    transform: translateY(1px);  
+}
+/* section.user>div.into>div>div.form>td.td_function>div>div>div>div>table.table2>tr>th{
+    width: 100%
+} */
+section.list_action>hr{
+    margin-top: 30%;
+    width: 70%;
+}
+section.list_action>ul>li{
+    margin: 1pc 0;
+    list-style: none;
+}
+section.list_action>ul>li>a{
+    text-decoration: none;
+    color: rgb(135, 136, 136);
+}
+
+section.list_action>ul>li>a:hover{
+    color: rgb(0, 0, 0);
+}
+
+section.list_action>ul>li>a.chose{
+    color: rgb(0, 0, 0);
+}
+
+section.user>div.info{
+    padding: 4pc;
+    padding-top: 1pc;
+}
+section.user>div.info>hr.hrhr{
+    clear: both;
+}
+section.user>div.info>div{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+/* 
+section.user>div.info>div>div.form{
+    border-right: solid 2px ;
+} */
+section.user>div.info>div>div.form>form>input[type="submit"]{
+    width: 33%;
+    margin-top: 1pc;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    border: none;
+ 
+    border-radius: 5px;
+    height: 2pc;
+}
+.save{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+section.user>div.info>div>div.form>form>input.save:hover{
+    background-color: rgb(185, 198, 15);
+}
+section.user>div.info>div>div.form>form>input.save:active{
+    box-shadow: 5px 5px 8px #888888;
+
+}
+section.user>div.info>div>div.form>form>label{
+    width: 30%;
+    float: left;
+}
+section.user>div.info>div>div.form>form>input[type="text"]{
+    width: 60% ;
+}
+section.user>div.info>div>div.form>form>input[type="email"]{
+    width: 60% ;
+}
+section.user>div.info>div>div.form>form>input[type="radio"]{
+    margin-left: 1pc;
+}
+section.user>div.info>div>div.form>form>select{
+    width: 15%;
+}
+section.user>div.info>div>form>div.img_user{
+    border-left: solid 1px black;
+    height: 100%;
+}
+section.user>div.info>div>form>div.img_user>div.border{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 1px black;
+    margin: auto;
+}
+section.user>div.info>div>form>div.img_user>div.border>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: solid 1px black;
+    margin: auto;
+}
+section.user>div.info>div>form>div.img_user>div>input[type="text"]{
+    margin: 1pc;
+    width: 100%;
+    height: 2pc;
+}
+/* section.user>div.info>div>form>div.img_user>div{
+    margin-top: 5%;
+    margin-left: 32%;
+ } */
+ section.user>div.info>div>form>div.img_user>div>label{
+    border: solid 1px;
+    padding: 3%;
+    border-radius: 2px;
+    margin: 5% 25%;
+    width: 50%;
+    text-align: center;
+ }
+ section.user>div.info>div>form>div.img_user>div>label:hover{
+    background-color: #aeaeaebb;
+ }
+ section.user>div.info>div>form>div.img_user>div>label:active{
+    background-color: #656565bb;
+    box-shadow: 0 1px 2px 2px #242424bb;
+ }
+section.user>div.info>div>form>div.img_user>div>input[type="file"]{
+    display: none;
+}
+section.user>div.info>div>form>div.img_user>div>input[type="submit"]{
+    margin: 5% 20%;
+    width: 60%;
+}
+section.user>div.info>div>form>div.img_user>div>input[type="submit"]:hover{
+    background-color: #aeaeaebb;
+ }
+ section.user>div.info>div>form>div.img_user>div>input[type="submit"]:active{
+    box-shadow: 0 1px 2px 2px #242424bb;
+
+ }
+ @media (max-width: 1018px ) {
+    section.user>div.info>div{
+        display: grid;
+        grid-template-columns: 100%; 
+     }
+     section.user>div.info>div>form>div.img_user{
+        border: none;
+        margin: 1pc 0;
+     }
+ }
+ .list_action {
+     
+    background-color: #A9A9A9;
+ }
+
+

@@ -1,0 +1,360 @@
+body{
+    background-color: #888888;
+    font-family:Shopee Display Regular;
+    font-size: smaller;
+}
+div.body{
+    /* margin: 3pc; */
+    
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+section.content{
+    border-left: ridge 1px;
+}
+.name{
+    color: #888888;
+     
+}
+
+section.content>header>h2{
+    padding: 0 1pc;
+}
+section.content>div.header>div.nav{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+div.sp{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin: 0 1pc;
+}
+div.sp>a.button_add>button{
+    background-color: #0d6efd;
+    color: white;
+    border: ridge 1px #c9c9c9;
+    padding: 0.7pc 1pc;
+    margin-bottom: 1pc ;
+}
+div.sp>a.button_add>button:hover{
+    background-color: #0048b4;
+}
+div.sp>a.button_add>button:active{
+    background-color: #00245b;
+    transform: translateY(3px); 
+
+}
+section.content>form>hr{
+    border-bottom: ridge #d4d4d4 1px;
+}
+section.content>form>h4{
+    padding: 0 1pc;
+
+}
+section.content>form>h4{
+    padding: 0 1pc;
+}
+section.content>form>table{
+    border: 1px ridge #888888;
+}
+td.img_product{
+    display: flex;
+    justify-content: space-around;
+}
+.img_product {
+    width: 100px;
+    
+}
+td{
+   height: 100%;
+}
+ul>li{
+    list-style: none;
+    margin: 0;
+    /* width: 100%; */
+}
+.menu_main {
+  
+}
+.main {
+    padding: 0;
+   
+     min-height: 100%;
+}
+ul.main>li>a{
+    color: black;
+    font-weight: 900;
+}
+ul.sp>li>a{
+    color: #000;
+    font-weight:500;
+}
+ul.pc>li>a{
+    color: #8f8f8f;
+}
+ul.lk>li>a{
+    color: #8f8f8f;
+
+}
+ul>li>a:hover{
+   background-color: rgb(187, 187, 187);
+}
+ul>li>a{
+    text-decoration: none;
+   
+    padding: 10px 10px;
+    /* width: 80%; */
+    display: block;
+}
+ul.pc{
+    display: none;
+    padding: 0;
+}
+ul.lk{
+    display: none;
+    padding: 0;
+}
+ul.sp{
+    display: none;
+    padding: 0;
+}
+li.sp:hover>ul.sp{
+    display: block;
+}
+li.pc:hover>ul.pc{
+    display: block;
+}
+li.lk:hover>ul.lk{
+    display: block;
+}
+div.lists_customer>div{
+    display: grid;
+    grid-template-columns: 5% 20% 25% 15% 25% 10% ;
+    margin: 0 1pc;
+}
+div.lists_customer>div.infor{
+    border: ridge 1px rgb(202, 202, 202) ;    
+}
+div.lists_customer>div.infor>h5{
+    border: ridge 1px rgb(202, 202, 202) ;  
+    padding: 1pc; 
+    margin: 0;
+}
+div.lists_customer>form>div.detail{
+    display: grid;
+    grid-template-columns: 5% 20% 25% 15% 25% 10% ;
+    margin: 0 1pc;
+}
+div.detail>input{
+    border: ridge 1px rgb(202, 202, 202);
+    padding: 1pc;
+    display: block;
+}
+button#xoa{
+    height: 4pc;
+    border-radius: 2px;
+    border: #ffffff ridge 1px;
+}
+button#xoa:hover{
+    background-color: #0048b4;
+}
+button#xoa:active{
+    background-color: #00245b;
+    transform: translateY(3px); 
+
+}
+button#delete>a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* p.action_p>button>a{
+    text-decoration: none;
+    font-size: small;
+    color: #ffffff;
+}
+p.action_p>button{
+ width: 100%;
+ margin-bottom:1.5pc ;
+ background-color: #0d6efd;
+ border-radius: 2px;
+ border: ridge 1px #e1e1e1;
+} */
+p.action_p>button:hover{
+    background-color: #0048b4;
+
+   }
+   p.action_p>button:active{
+    background-color: #00245b;
+    transform: translateY(3px);
+
+   }
+div.lists_product{
+    display: grid;
+    grid-template-columns: 5% 20% 25% 10% 10% 5% 15% 10%;
+    margin: 0 1pc;
+}
+div.lists_product>h5{
+    /* border: ridge 1px rgb(202, 202, 202) ; 
+    padding: 0pc ;   
+    margin: 0; */
+}
+div.d_p{
+    display: grid;
+    grid-template-columns: 5% 20% 25% 10% 10% 5% 15% 10%;
+    margin: 0 1pc;
+}
+div.d_p>p{
+    border: ridge 1px rgb(202, 202, 202) ; 
+    padding: 0.5pc ;
+    margin: 0 ;
+}
+div.d_p>input{
+    border: ridge 1px rgb(255, 255, 255) ; 
+    padding: 1pc ;
+    margin: 0 ;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 2px;
+}
+div.d_p>input:hover{
+    background-color: #0048b4;
+
+}
+div.d_p>input:active{
+    background-color: #00245b;
+    transform: translateY(3px); 
+}
+div.d_p>p>img{
+    width: 100%;
+}
+form.form_seach{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1pc;
+}
+div.seach{
+    width: 50%;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+form>div.seach>input[type='text']{
+    width: 80%;
+    height: 3pc;
+    border: ridge 2px;
+    border-right:none ;
+    color: rgb(52, 52, 52);
+
+}
+form>div.seach>input[type='submit']{
+    width: 20%;
+    height: 3pc;
+    border: ridge 2px;
+    border-left:none ;
+    background-color: rgb(29, 112, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+input.null{
+    border: ridge red;
+}
+
+.action_p {
+    padding: 30px;
+}
+ 
+.a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+/* add_product */
+section.content>div.header>div.add_p{
+    margin: 0 1pc;
+}
+.header{
+    background: #88CDF6;
+    height: 70px;
+}
+form.form_add{
+    display: grid;
+    margin: 1pc 10pc;
+}
+form.form_add>input{
+    border: ridge 1px #efefef ;
+    border-radius: 3px;
+ }
+form.form_add>input[type='text']{
+   height: 3pc;
+   font-size: 18px;
+}
+form.form_add>input[type='submit']{
+    height: 3pc;
+    background-color: #0d6efd;
+    color: #ffffff;
+ }
+ form.form_add>input[type='submit']:hover{
+    background-color: #0048b4;
+ }
+ form.form_add>input[type='submit']:active{
+    background-color: #00245b;
+    transform: translateY(3px); 
+ }
+.error{
+    border: ridge 1px red;
+}
+form>div.p_img{
+    width: 30%;
+}
+form>div.p_img>img{
+    width: 70%;
+}
+.cate {
+    font-size: 18px;
+}
+.navbar{
+    background:#88CDF6;
+}
+.nav_list {
+    display: flex;
+    justify-content: right;
+    padding: 0 20px;
+    line-height: 40px;
+    margin: 0;
+  position: relative;
+}
+.main_item{
+    list-style: none;
+    padding: 20px 20px;
+    position: relative;
+}
+.main_link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+}
+.namett,.button_add{
+    padding-top: 20px;
+}
+.nav_list {
+
+}
+.nav_lists{
+     display: none;
+      
+}
