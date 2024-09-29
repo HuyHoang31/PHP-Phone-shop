@@ -101,9 +101,9 @@ global $chose;
                         <?php echo $category['categoryName']  ?></option>
                     <?php } ?> -->
                     <option value="1">Samsum</option>
-                    <option value="2">iphone</option>
+                    <option value="2">Iphone</option>
                     <option value="3">Nokia</option>
-                    <option value="4">readme</option>
+                    <option value="4">Readme</option>
                     <option value="5">ViVo</option>
                   
 
